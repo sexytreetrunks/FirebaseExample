@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirebaseExample</string>
+
+    <string name="default_notification_channel_id">99999</string>
+    <string name="notification_name">!firebase example!</string>
+    <string name="firebase_performance_btn_text">Firebase performance Monitering</string>
+    <string name="fcm_btn_text">Firebase cloud messaging</string>
+    <string name="token_btn">토큰 생성하기</string>
+    <string name="subscribe_btn">주제 구독하기</string>
+</resources>

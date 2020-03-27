@@ -14,6 +14,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val fcmButton = findViewById<Button>(R.id.fcm_btn)
         fcmButton.setOnClickListener(this)
+
+        val authButton = findViewById<Button>(R.id.firestore_auth_btn)
+        authButton.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -21,8 +24,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         when(v?.id) {
             R.id.fcm_btn -> {
                 intent = Intent(this, CloudMessagingActivity::class.java)
-                startActivity(intent)
+            }
+            R.id.firestore_auth_btn -> {
+                intent = Intent(this, FirebaseAuthTestActivity::class.java)
             }
         }
+        startActivity(intent)
     }
 }

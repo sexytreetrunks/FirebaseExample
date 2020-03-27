@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
     <Button
-        android:id="@+id/firebase_performance_btn"
+        android:id="@+id/firestore_auth_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/firebase_performance_btn_text"
+        android:text="@string/firestore_auth_text"
         app:layout_constraintBottom_toTopOf="@id/fcm_btn"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -23,7 +23,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/firebase_performance_btn" />
+        app:layout_constraintTop_toBottomOf="@id/firestore_auth_btn" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

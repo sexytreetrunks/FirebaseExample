@@ -7,4 +7,8 @@
     <string name="fcm_btn_text">Firebase cloud messaging</string>
     <string name="token_btn">토큰 생성하기</string>
     <string name="subscribe_btn">주제 구독하기</string>
+
+    <string name="auth_anonymous_text">익명로그인</string>
+    <string name="write_doc_text">Document 생성/수정</string>
+    <string name="firestore_auth_text">Firestore인증</string>
 </resources>
